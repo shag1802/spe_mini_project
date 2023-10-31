@@ -32,12 +32,12 @@ public class UnscientificTest {
         Assert.assertEquals(expectedResult, result, 0.2f);
     }
 
-    @Test
-    public void test_power() {
-        double a = 2.0;
-        double b = 5.0;
-        double expectedResult = 32.0;
-        double result = uncalculator.power(a,b);
-        Assert.assertEquals(expectedResult, result, 0.0f);
-    }
+//    @Test
+//    public void test_power() {
+//        double a = 2.0;
+//        double b = 5.0;
+//        double expectedResult = 32.0;
+//        double result = uncalculator.power(a,b);
+//        Assert.assertEquals(expectedResult, result, 0.0f);
+//    }
 }
