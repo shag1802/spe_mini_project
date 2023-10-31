@@ -37,17 +37,17 @@ public class Main {
         //some changes
         Scanner reader = new Scanner(System.in);
         int op, flag=0;
-        double num, exp;
-        int numm;
+        double val, exp;
+        int a, b;
 
         do{
-            System.out.println("------------Calculator--------------");
-            System.out.println("Choices of Operations:");
+            System.out.println("Welcome To Calculator App!!!");
+            System.out.println("Please select a operations from the following:");
             System.out.println("");
-            System.out.println("1. Square root");
-            System.out.println("2. Factorial");
-            System.out.println("3. Natural Log");
-            System.out.println("4. Power");
+            System.out.println("1. Addition");
+            System.out.println("2. Subtraction");
+            System.out.println("3. Power");
+            System.out.println("4. Square Root");
             System.out.println("5. Exit");
             System.out.println("");
             System.out.print("Enter your choice(number): ");
@@ -57,72 +57,67 @@ public class Main {
             else{
                 switch(op){
 
-                    case 1:  // Square Root
-                        System.out.println("You choose Square Root!!");
+                    case 1:  // Addition
+                        System.out.println("You have selected addition operation");
                         System.out.println("");
-                        System.out.print("Enter number: ");
-                        num = reader.nextDouble();
-                        squareRoot(num);
+                        System.out.print("Enter 1st number: ");
+                        a = reader.nextInt();
+                        System.out.print("Enter 2nd number: ");
+                        b= reader.nextInt();
+                        add(a,b);
                         break;
 
-                    case 2: //Factorial
-                        System.out.println("You choose Factorial!!");
+                    case 2: //Subtraction
+                        System.out.println("You have selected subtraction operation");
                         System.out.println("");
-                        System.out.print("Enter number: ");
-                        numm = reader.nextInt();
-                        factorial(numm);
+                        System.out.print("Enter 1st number: ");
+                        a = reader.nextInt();
+                        System.out.print("Enter 2nd number: ");
+                        b= reader.nextInt();
+                        sub(a,b);
                         break;
 
-                    case 3: //Natural Log
-                        System.out.println("You choose Natural Log!!");
+                    case 3: //Power
+                        System.out.println("You have selected power operation");
                         System.out.println("");
-                        System.out.print("Enter number: ");
-                        num = reader.nextDouble();
-                        naturalLog(num);
-                        break;
-
-                    case 4: //Power
-                        System.out.println("You choose Power!!");
-                        System.out.println("");
-                        System.out.print("Enter number: ");
-                        num = reader.nextDouble();
-                        System.out.print("exponent: ");
+                        System.out.print("Enter number the number: ");
+                        val = reader.nextDouble();
+                        System.out.print("Enter the exponent: ");
                         exp = reader.nextDouble();
-                        power(num,exp);
+                        power(val,exp);
                         break;
+
+                    case 4: //Square root
+                        System.out.println("You have selected Square Root operation");
+                        System.out.println("");
+                        System.out.print("Enter the number: ");
+                        val = reader.nextDouble();
+                        squareRoot(val);
+                        break;
+
+
 
                     default:
-                        System.out.println("Exiting due to invalid input!!");
+                        System.out.println("Invalid input!!");
                         flag = 1;
                 }
             }
         }while(flag == 0);
     }
-
-    public static double squareRoot(double num){
-        double c = Math.sqrt(num);
+    public static int add(int a, int b){
+        int c = a+ b;
         System.out.println("");
         System.out.println("The Result is "+c);
         System.out.println("");
-        logger.info("Executing squareRoot function!");
+        logger.info("Addition function is executing");
         return c;
     }
-
-    public static int factorial(int num){
-        int c = num ;
-        for(int i=num-1; i>=1; i--) c = c*i;
+    public static int sub(int a ,int b) {
+        int c = a - b;
         System.out.println("");
-        System.out.println("The Result is "+c);
+        System.out.println("The Result is " + c);
         System.out.println("");
-        logger.info("Executing Factorial function!");
-        return c;
-    }
-    public static double naturalLog(double num){
-        double c = Math.log(num);
-        System.out.println("");
-        System.out.println("The Result is "+ c);
-        System.out.println("");
-        logger.info("Executing naturalLog function!");
+        logger.info("Subtraction function is executing");
         return c;
     }
     public static double power(double num, double exp){
@@ -130,7 +125,16 @@ public class Main {
         System.out.println("");
         System.out.println("The Result is "+ c);
         System.out.println("");
-        logger.info("Executing Power function!");
+        logger.info("Power function is executing");
         return c;
     }
+    public static double squareRoot(double num){
+        double c = Math.sqrt(num);
+        System.out.println("");
+        System.out.println("The Result is "+c);
+        System.out.println("");
+        logger.info("SquareRoot function is executing");
+        return c;
+    }
+
 }

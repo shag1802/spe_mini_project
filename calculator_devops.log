@@ -1,10 +1,12 @@
-2023-10-30 22:36:54.320 [main] INFO  org.example.Main - Executing Factorial function!
-2023-10-30 22:36:54.340 [main] INFO  org.example.Main - Executing naturalLog function!
-2023-10-30 22:36:54.342 [main] INFO  org.example.Main - Executing squareRoot function!
-2023-10-30 22:36:54.344 [main] INFO  org.example.Main - Executing Power function!
-2023-10-30 23:08:29.821 [main] INFO  org.example.Main - Executing Factorial function!
-2023-10-30 23:08:29.835 [main] INFO  org.example.Main - Executing naturalLog function!
-2023-10-30 23:08:29.837 [main] INFO  org.example.Main - Executing squareRoot function!
-2023-10-31 00:20:09.639 [main] INFO  org.example.Main - Executing Factorial function!
-2023-10-31 00:20:09.656 [main] INFO  org.example.Main - Executing naturalLog function!
-2023-10-31 00:20:09.658 [main] INFO  org.example.Main - Executing squareRoot function!
+2023-10-31 15:30:53.683 [main] INFO  org.example.Main - Addition function is executing
+2023-10-31 15:30:53.690 [main] INFO  org.example.Main - Subtraction function is executing
+2023-10-31 15:30:53.699 [main] INFO  org.example.Main - SquareRoot function is executing
+2023-10-31 15:30:53.700 [main] INFO  org.example.Main - Power function is executing
+2023-10-31 15:37:54.357 [main] INFO  org.example.Main - Addition function is executing
+2023-10-31 15:37:54.361 [main] INFO  org.example.Main - Subtraction function is executing
+2023-10-31 15:37:54.365 [main] INFO  org.example.Main - SquareRoot function is executing
+2023-10-31 15:37:54.366 [main] INFO  org.example.Main - Power function is executing
+2023-10-31 15:41:21.473 [main] INFO  org.example.Main - Addition function is executing
+2023-10-31 15:41:21.476 [main] INFO  org.example.Main - Subtraction function is executing
+2023-10-31 15:41:21.479 [main] INFO  org.example.Main - SquareRoot function is executing
+2023-10-31 15:41:21.480 [main] INFO  org.example.Main - Power function is executing
