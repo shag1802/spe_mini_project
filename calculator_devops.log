@@ -22,3 +22,7 @@
 2023-11-07 15:01:31.995 [main] INFO  org.example.Main - Subtraction function is executing
 2023-11-07 15:01:32.001 [main] INFO  org.example.Main - SquareRoot function is executing
 2023-11-07 15:01:32.005 [main] INFO  org.example.Main - Power function is executing
+2023-11-07 15:52:53.845 [main] INFO  org.example.Main - Addition function is executing
+2023-11-07 15:52:53.848 [main] INFO  org.example.Main - Subtraction function is executing
+2023-11-07 15:52:53.852 [main] INFO  org.example.Main - SquareRoot function is executing
+2023-11-07 15:52:53.855 [main] INFO  org.example.Main - Power function is executing
